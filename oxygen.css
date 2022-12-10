@@ -1,0 +1,687 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.example::-webkit-scrollbar {
+    display: none;
+}
+/* ______________ header start _____________ */
+/* ______________navigation start_____________ */
+nav{
+    background-color: rgba(19, 19, 19, 0.171);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand-name{
+    padding-left: 16px;
+    font-size: 1.3rem;
+    margin: 6px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.brand-name a{
+    text-decoration: none;
+}
+.brand-name a h1{
+    color: rgb(255, 255, 255);
+    margin: 0px 0;
+    padding: 7px 0;
+    font-weight: bold;
+    font-family: 'Crete Round', serif;
+}
+.list ul{
+    width: 100%;
+    height: 100%;
+    padding:  0 0 0 0;
+    margin: 0px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .list ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.list ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+ul li:nth-child(5){
+    margin-right: 20px;
+}
+.hamburger{
+    width: 35px;
+    margin: 0 0 0 0;
+    display: none;
+}
+
+/* ______________navigation end_____________ */
+
+.header{
+    padding: 0%;
+    height: 600px;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.233),rgba(0, 0, 0, 0.247)),url("photos/obanner.jpg");
+    background-blend-mode:darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.header-container{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.header-content{
+    width: 60%;
+    color: #fff;
+}
+.header-content h1{
+    overflow: hidden;
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px black;
+}
+.header-content p{
+    font-size: 1.8rem;
+    text-shadow: 0 0 5px black;
+}
+.header-content button{
+    padding: 8px 16px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    margin-top: 15px;
+}
+.header-content button:hover{
+    background-color: #fff;
+    color: black;
+}
+/* ______________ HEADER END _____________ */
+
+/* ______________ SECTION1 START _____________ */
+.section1-row1{
+    padding: 40px 0 20px 0;
+}
+#about .section1-container .section1-row1 .section1-row1-element1 h1{
+    padding-bottom: 7px;
+    margin: 0%;
+}
+.section1-row1 .section1-row1-element1 p{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.section1-row1 .section1-row1-element1 button{
+    padding: 7px 15px;
+    background-color: transparent;
+    border: 1px solid #6B7E3C;
+    color: black;
+    font-weight: bold;
+}
+.section1-row1-element2 img{
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 0 30px #000000;
+    margin: 0 0 0 40px;
+}
+.section1-row1-element2 .green-box{
+    width: 80%;
+    height: 100%;
+    background-color: #6B7E3C;
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+.section1-row1-element2 .gray-box{
+    width: 100%;
+    height: 70%;
+    background-color: rgba(122, 112, 112, 0.651);
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+}
+.section1-row1-element2{
+    padding: 0 70px 50px 0;
+}
+.section1 .section1-container .section1-row2{
+    padding: 40px 0;
+}
+.section1-row2-element1{
+    overflow: hidden;
+    padding: 0%;
+    padding: 0 70px 0 0;
+}
+.section1-row2-element1 img{
+    margin: 50px 0 0 30px;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 0 30px #000000;
+}
+.section1-row2-element1 .Green-BOX{
+    width: 83%;
+    height: 85%;
+    background-color: #6B7E3C;
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+.section1-row2-element1 .Gray-BOX{
+    width: 60%;
+    height: 58%;
+    background-color: rgba(122, 112, 112, 0.651);
+    position: absolute;
+    top: 0%;
+    margin-top: 18%;
+    margin-left: 70%;
+    z-index: 1;
+}
+.section1-row2-element2 h4{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+.section1-row2-element2 p{
+    line-height: 2.8rem;
+}
+.section1-row2-element2 button{
+    padding: 7px 15px;
+    background-color: transparent;
+    border: 1px solid #6B7E3C;
+    color: black;
+    font-weight: bold;
+}
+.section1-row3{
+    margin-top: 50px;
+    position: relative;
+  }
+  .circle{
+    width: 150px;
+    height: 150px;
+    background-color:  #6B7E3C;
+    position: absolute;
+    top: 78%;
+    border-radius: 50%;
+    z-index: 4;
+  }
+  .section1-row3 img{
+    padding-left: 30px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 2;
+  }
+  .element1{
+    border: 1px solid #6B7E3C;
+    width: 60%;
+    height: 55%;
+    position:absolute;
+    top: 45%;
+    left: 40%;
+    z-index: 1;
+    background-color:  #6B7E3C;
+  }
+  .element2{
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    position:absolute;
+    top: 16%;
+    left: 55%;
+    z-index: 3;
+    box-shadow: 20px -20px 20px rgba(0, 0, 0, 0.185);
+    padding: 30px 20px;
+  }
+  .section1-row3 .element2 h2{
+    font-weight: bold;
+    margin: 0%;
+    padding-bottom: 5px;
+  }
+  .section1-row3 .element2 p{
+    line-height: 2.8rem;
+    font-size: 1.7rem;
+  }
+  .section1-row3 .element2 button{
+    padding: 10px 15px 7px;
+    background-color: transparent;
+    border: 1px solid #6B7E3C;
+    color: black;
+    font-weight: bold;
+  }
+
+/* ______________ SECTION1 END _____________ */
+
+/* ______________ SECTION2 START _____________ */
+.section2{
+    margin-top: 100px;
+    padding: 60px 0;
+    background-image: url("photos/oxygensection1row3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section2-container h1{
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: right;
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow: 0 0 10px black;
+    overflow: hidden;
+}
+.right-div{
+    text-align: center;
+}
+.right-div-col1 .col1, .right-div-col2 .col2,
+.right-div-col3 .col3 {
+    padding: 20px 15px;
+    background-color: #fff;
+}
+.right-div-col1 .col1 h3, .right-div-col2 .col2 h3,
+.right-div-col3 .col3 h3 {
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+/* ______________ SECTION2 END _____________ */
+
+/* ______________ SECTION4 START _____________ */
+.section4{
+    margin: 100px 0;
+}
+.section4-row * {
+    padding: 0%;
+    position: relative;
+    top: 0%;
+}
+.section4 a {
+    width: 100%;
+    height: 100%;
+    background-color: #0000005e;
+    position: absolute;
+    opacity: 0;
+    transition: all .5s;
+}
+.section4-row a:hover{
+    background-color: #0000006e;
+    transition: all .5s;
+    opacity: 1;
+}
+/* ______________ SECTION4 END _____________ */
+
+/* ______________ SECTION5 START _____________ */
+.section5 .section5-container h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.section5 .section5-container p{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+.section5-wrapper{
+    background-color: aqua;
+    padding: 0%;
+}
+.section5-row .section5-left-col{
+    padding: 0%;
+}
+.wrapper-row1 * {
+    background-color: #fff;
+}
+.section5-row .section5-left-col .wrapper1 .contain *,
+.section5-row .section5-left-col .wrapper2 .contain * {
+    background-color: rgb(97, 124, 44);
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.section5-row .section5-left-col .wrapper1 .contain {
+    margin: 0;
+    text-align: center;
+}
+.section5-row .section5-left-col .wrapper2 .contain{
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+.contain .fa{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.contain h3{
+    margin: 10px 0;
+    color: #fff;
+    padding-bottom: 5px;
+}
+.contain h5{
+    font-size: 3.3rem;
+    color: #fff;
+    margin: 0;
+    overflow: hidden;
+}
+.contain .box{
+    padding: 20px 0;
+    overflow: hidden;
+}
+/* ______________ SECTION5 END _____________ */
+
+/* ______________ SECTION6 START _____________ */
+.section7{
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+.email-form{
+    align-items: center;
+}
+label{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+#email, #name{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(2, 2, 2);
+}
+.email-form h1{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-bottom: 8px;
+}
+.txtarea{
+    margin-top: -20px;
+}
+#sub{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 117, 49);
+    margin-top: 20px;
+    padding: 8px 0;
+    font-size: 1.7rem;
+    letter-spacing: .8rem;
+    border: none;
+    font-weight: bold;
+}
+#sub:hover{
+    background-color: #48a71d;
+    border: none;
+    color: black;
+}
+#msg{
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-size: 2.3rem;
+}
+.forms p{
+    font-size: 1.8rem;
+}
+.last-running-img img{
+    border-radius: none;
+}
+input{
+    font-size: 2.3rem;
+}
+/* ______________ SECTION6 END _____________ */
+
+/* ______________ SECTION8 START _____________ */
+.section8{
+    background-color: rgb(34, 32, 32);
+    padding: 60px 0 80px 0;
+    color: aliceblue;
+}
+.section8 .last-col a{
+    color: aliceblue;
+}
+.section8 .last-col{
+    margin-bottom: 20px;
+}
+/* ______________ SECTION8 END _____________ */
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+
+    .circle{
+      width: 130px;
+      height: 130px;
+      position: absolute;
+      top: 50%;
+    }
+    .element1{
+      background-color: rgb(119, 168, 39);
+      width: 100%;
+      height: 100px;
+      position: relative;
+      top: 0%;
+      left: 0%;
+    }
+    .element2{
+      width: 100%;
+      position: relative;
+      top: 0%;
+      left: 0%;
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.185);
+      padding: 30px 0px;
+    }
+    .section1-row3 .element2 h2{
+      font-weight: bold;
+    }
+    .section1-row3 .element2 p{
+      line-height: 2.8rem;
+      font-size: 1.7rem;
+    }
+    .section1-row3 .element2 button{
+      padding: 10px 15px;
+    }
+  }
+
+
+@media only screen and (max-width:768px){
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+    /* ______________navigation start_____________ */
+    nav{
+        width: 100%;
+        display: block;
+        padding: 4px 0px;
+    }
+    .brand-name{
+        padding-left: 10px;
+        margin: 1px 0;
+
+    }
+    .brand-name h1{
+        font-size: 2.5rem;
+    }
+    .hamburger{
+        display: block;
+        margin-right: 8px;
+        padding: 7px 0;
+    }
+    .hamburger .line{
+        width: 65%;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-top: 4px;
+        transition: transform .5s, .35s; 
+    }
+    .hamburger.active .line:nth-child(1){
+        transform: translateY(6px) rotate(45deg);
+        transition: all 0.5s;
+    }
+    .hamburger.active .line:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .line:nth-child(3){
+        transform: translateY(-6px) rotate(-45deg);
+        transition: all 0.5s;
+    }
+    .list ul{
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: -65%;
+        width: 65%;
+        background-color: rgba(255, 255, 255, 0.788);
+        text-align: left;
+        transition: all 0.5s ease-in-out;
+    }
+    .list ul li{
+        margin: 5% 0 0 0%;
+        padding-bottom: 5%;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(0, 0, 0);
+    }
+    .list ul li a{
+        color: black;
+        font-weight: bold;
+    }
+    .list ul.active{
+        left: 0%;
+    }
+    .list ul li:nth-child(1){
+        margin-top: 50%;
+    }
+    /* ______________navigation end_____________ */
+    .header-content h1{
+        font-size: 2.5rem;
+    }
+    .header-content{
+        width: 100%;
+    }
+    .header-content p{
+        font-size: 1.5rem;
+    }
+    .header-content button{
+        padding: 5px 13px;
+    }
+    .section1-row1-element1{
+        padding: 0%;
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+    }
+    .section1-row1 .section1-row1-element1 p{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    .section1-row1 .section1-row1-element1 button{
+        padding: 5px 13px;
+    }
+    .section1-row2 .section1-row2-element2 h4{
+        font-size: 1.6rem;
+    }
+    .section1-row2 .section1-row2-element2 button{
+        padding: 5px 13px;
+    }
+    .circle{
+       display: none;
+    }
+    .section1-row3 .element2{
+       padding: 0%;
+       margin: 0%;
+    }
+    .section1-row3 .element2 h2{
+       margin-top: 0%;
+    }
+    .section1-row3 .element1{
+        margin-top: 30px;
+    }
+    .section2 .section2-container h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .right-div .sub-row .right-div-col2{
+        /* margin-top: 15px; */
+        padding: 15px 8px;
+    }
+    .section4 a {
+        opacity: 1;
+    }
+    .section5 .section5-container h1{
+        font-size: 2.6rem;
+    }
+    .section5 .section5-container p{
+        font-size: 1.6rem;
+    }
+    .contain .fa{
+        color: #fff;
+        font-size: 2rem;
+    }
+    .contain h3{
+        font-size: 1.6rem;
+    }
+    .contain h5{
+        font-size: 3rem;
+    }
+    .section5-right-col img{
+        margin-top: 30px;
+        box-shadow: 0 0 10px black;
+    }
+    .section5-right-col{
+        padding: 0%;
+    }
+    .section7{
+        padding: 50px 0;
+    }
+    .email-form h1{
+        font-size: 2.6rem;
+        margin-bottom: 30px;
+    }
+    label{
+        font-size: 1.6rem;
+        color: rgb(0, 0, 0);
+    }
+    .forms p{
+        font-size: 1.6rem;
+    }
+    input{
+        font-size: 1.6rem;
+    }
+    #msg{
+        font-size: 1.6rem;
+    }
+    #sub{
+        padding: 5px 0;
+        letter-spacing: .4rem;
+        font-size: 1.4rem;
+    }
+    .last-running-img img{
+        margin-top: 20px;
+    }
+}
